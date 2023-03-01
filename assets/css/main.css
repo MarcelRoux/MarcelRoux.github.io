@@ -3764,6 +3764,21 @@ input, select, textarea {
 		z-index: 2;
 	}
 
+		#main > .resume .resume-title {
+			font-size: 26px;
+			font-weight: 700;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			color: var(--white);
+		}
+
+		#main > .resume .resume-item {
+			padding: 0 0 20px 20px;
+			margin-top: -2px;
+			border-left: 2px solid white;
+			position: relative;
+		}
+
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #eeeeee;
