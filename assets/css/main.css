@@ -3764,19 +3764,52 @@ input, select, textarea {
 		z-index: 2;
 	}
 
+		.resume .resume-item p {
+			text-align: justify;
+			margin: 0 0 0rem 0;
+		}
+
+		.resume .resume-item h4 {
+			line-height: 1rem;/*18px;*/
+			font-size: 1rem;/*18px;*/
+			font-weight: 600;
+			text-transform: uppercase;
+			/* font-family: "Poppins", sans-serif; */
+			color: black;
+			margin-bottom: 0.5rem;/*10px;*/
+			margin-top: -0.5rem;
+		}
+
 		#main > .resume .resume-title {
 			font-size: 26px;
 			font-weight: 700;
 			margin-top: 20px;
 			margin-bottom: 20px;
-			color: var(--white);
+			color: yellow;
+		}
+
+		#main > .resume .resume-item::before {
+			content: "";
+			position: absolute;
+			width: 1rem; /*16px;*/
+			height: 1rem; /*16px;*/
+			border-radius: 4rem; /*50px;*/
+			left: -0.625rem;/*-9px;*/
+			top: 0rem;/*0px;*/
+			background: green;
+			border: 2px solid green;
+			/* margin-top: -1px; Moves dot up, but misaligns with text. */
+		}
+
+		#main > .resume .resume-border-left {
+			border-left: medium solid;
+			position: relative;
 		}
 
 		#main > .resume .resume-item {
-			padding: 0 0 20px 20px;
-			margin-top: -2px;
-			border-left: 2px solid white;
-			position: relative;
+			/*padding: 0 0 20px 20px;*/
+			padding: 0 0 1rem 1rem;
+			margin-top: 0rem;/*-2px;*/
 		}
 
 		#main > * {
